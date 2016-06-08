@@ -4,7 +4,7 @@ class EmailConfig {
 
 	public $default = array(
 		'transport' => 'Mail',
-		'to' => 'nick@themarksys.com',
+		'to' => '',
 		//'charset' => 'utf-8',
 		//'headerCharset' => 'utf-8',
 	);

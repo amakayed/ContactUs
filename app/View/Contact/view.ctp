@@ -13,8 +13,8 @@
 $(document).ready(function(){
 	$('#submitBtn').click(function(e){
 		if( ($("#fname").val() == '') || ($("#lname").val() == '') || ($("#email").val() == '') || ($("#message").val() == '')){
-			e.preventDefault();
-			alert('Please make sure all values have been entered.');
+			//e.preventDefault();
+			//alert('Please make sure all values have been entered.');
 		}
 	});
 });
